@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery水平时间轴</title>
+
+    <link type="text/css" href="index.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="time-line">
+        <div class="left-btn"></div>
+        <div class="right-btn"></div>
+        <div class="time-box">
+            <ul>
+                <li class="active">
+                    <div class="point"></div>
+                    <h3>2015/12/15入职</h3>
+                    <p>在深圳大区销售SOP部门担任运营设计师</p>
+                </li>
+                <li>
+                    <div class="point"></div>
+                    <h3>2015/12/15入职</h3>
+                    <p>在深圳大区销售SOP部门担任运营设计师</p>
+                </li>
+                <li>
+                    <div class="point"></div>
+                    <h3>2015/12/15入职</h3>
+                    <p>在深圳大区销售SOP部门担任运营设计师</p>
+                </li>
+                <li>
+                    <div class="point"></div>
+                    <h3>2015/12/15入职</h3>
+                    <p>在深圳大区销售SOP部门担任运营设计师</p>
+                </li>
+                <li>
+                    <div class="point"></div>
+                    <h3>2015/12/15入职</h3>
+                    <p>在深圳大区销售SOP部门担任运营设计师</p>
+                </li>
+                <li>
+                    <div class="point"></div>
+                    <h3>2015/12/15入职</h3>
+                    <p>在深圳大区销售SOP部门担任运营设计师</p>
+                </li>
+                <li>
+                    <div class="point"></div>
+                    <h3>2015/12/15入职</h3>
+                    <p>在深圳大区销售SOP部门担任运营设计师</p>
+                </li>
+                <li>
+                    <div class="point"></div>
+                    <h3>2015/12/15入职</h3>
+                    <p>在深圳大区销售SOP部门担任运营设计师</p>
+                </li>
+                <li>
+                    <div class="point"></div>
+                    <h3>2015/12/15入职</h3>
+                    <p>在深圳大区销售SOP部门担任运营设计师</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="../jquery滑动验证登录注册界面/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            var timeLength = $('.time-box li').length,
+                timeliWidth = $('.time-box li').outerWidth();
+
+            var index = 0;
+
+            $('.time-box ul').width(timeLength * timeliWidth);
+
+            function slideOne(i) {
+                var scrollVal = i * timeliWidth; //每次切换的数量
+                $('.time-box').stop().animate({
+                    scrollLeft: scrollVal
+                }, 300);
+            }
+
+            $('.right-btn').click(function() {
+                index = index >= (timeLength-4) ? 0 : index + 1;
+                slideOne(index);
+            })
+
+            $('.left-btn').click(function() {
+                index = index <= 0 ? (timeLength-4) : index - 1;
+                slideOne(index);
+            })
+
+        })
+    </script>
+
+</body>
+</html>
