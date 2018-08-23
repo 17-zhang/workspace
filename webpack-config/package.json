@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "webpack": "^4.16.5"
+    "webpack": "^4.6.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
