@@ -2,99 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50ee63fe-77d1-4b2f-b894-c4f995abab27" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack-config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-config/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack-config/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-config/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack-config/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack4.x_config/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4.x_config/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack4.x_config/config/webpack.dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack4.x_config/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4.x_config/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack4.x_config/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack4.x_config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4.x_config/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack4.x_config/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack4.x_config/src/main2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack4.x_config/配置流程.md" beforeDir="false" afterPath="$PROJECT_DIR$/webpack4.x_config/配置流程.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/.idea/1_WxDemo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/app.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/controllers/indexController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/controllers/mainController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/lib/es6-promise.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/lib/linq.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/allIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/bjIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/channel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/footer-app.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/footer-cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/footer-index.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/footer-list.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/footer-personal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/ganIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/gkIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/guid.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/health1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/health2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/health3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/hootroom1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/hootroom2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/hootroom3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/hootroom4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/hootroom5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/hootroom6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/hootroom7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/hootroom8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/jfsc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/likepro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/likestar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/lunbo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/manIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/navli1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/navli2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/navli3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/navli4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/navli5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/navli6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/navli7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/navli8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/newuser.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/ppweek.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/puzzle-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/puzzle-pro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/search_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/sexIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/sjIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/skill-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/skill-pro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/tehui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/womenIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/images/zlIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/index/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/index/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/index/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/index/template/banner.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/index/template/footer.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/index/template/products.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/index/template/topScroll.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/logs/logs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/logs/logs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/logs/logs.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/logs/logs.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/main/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/main/main.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/pages/main/main.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/project.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/service/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/utils/kad.request.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxDemo-master/utils/util.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/test.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -123,17 +31,39 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack-config/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="322">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="vue知识总结.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/vue知识总结.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue/test.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vuex.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/Vuex/vuex.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="275">
+                <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -173,6 +103,7 @@
         <option value="markdown" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -209,6 +140,7 @@
         <option value="$PROJECT_DIR$/webpack4.x_config/.gitignore" />
         <option value="$PROJECT_DIR$/webpack-config/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/vue/test.vue" />
       </list>
     </option>
   </component>
@@ -244,7 +176,13 @@
             <path>
               <item name="worksapce" type="b2602c69:ProjectViewProjectNode" />
               <item name="worksapce" type="462c0819:PsiDirectoryNode" />
-              <item name="webpack4.x_config" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="worksapce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="worksapce" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+              <item name="Vuex" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="worksapce" type="b2602c69:ProjectViewProjectNode" />
@@ -272,7 +210,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/vue-singlepage" />
+    <property name="last_opened_file_path" value="F:/vue-douban" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
@@ -314,12 +252,12 @@
       <workItem from="1534818040672" duration="2179000" />
       <workItem from="1534821583223" duration="10612000" />
       <workItem from="1534900208682" duration="12512000" />
-      <workItem from="1534987390799" duration="2165000" />
+      <workItem from="1534987390799" duration="2379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32491000" />
+    <option name="totallyTimeSpent" value="32705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1376" height="735" extended-state="0" />
@@ -496,29 +434,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/vue知识总结.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SCSS/scss总结.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="325">
             <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/Vuex/vuex.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="305">
-            <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -593,13 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack-config/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack-config/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -618,6 +531,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack-config/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/Vuex/vuex.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="275">
+            <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue知识总结.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/test.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
