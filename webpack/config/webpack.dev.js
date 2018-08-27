@@ -6,7 +6,8 @@ module.exports = {
     entry: {
         // 里面的main是可以随便写的
         main: './src/main.js',
-        main: './src/main2.js'  // 这里添加一个入口文件
+        // 这里添加一个入口文件
+        main: './src/main2.js'
     },
     // 出口文件的配置项
     output: {
@@ -16,7 +17,18 @@ module.exports = {
         filename: '[name].js'  // 这里[name]，告诉我们入口进去的文件是什么名字，打包出来也同样是什么名字
     },
     // 模板：例如解读css，图片如何转换，压缩
-    module: {},
+    module: {
+        rules: [
+            // css loader
+            {
+                test: /\.css$/,
+                use: [
+                    {loader: 'style-loader'},
+                    {loader: 'css-loader'}
+                ]
+            }
+        ]
+    },
     // 插件，用于生产模板和各项功能
     plugins: [],
     // 配置webpack开发服务功能
