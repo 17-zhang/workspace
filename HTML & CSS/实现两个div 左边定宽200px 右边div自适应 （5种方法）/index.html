@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>实现两个div，左边固定div宽度200px，右边div自适应（5种方法）</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+
+    <style type="text/css">
+
+        /* 方法一： BFC(块级格式化上下文)*/
+
+        /*.container {
+            width: 1000px;height: 600px;border: 1px solid red;
+        }
+        .left {
+            width: 200px;height: 100%;background: gray;
+        }
+        .right{
+            overflow: hidden;background: green;
+        }*/
+
+        /* 方法二： flex布局 */
+
+        .container {
+            width: 1000px;height: 400px;border: 1px solid red;
+            display: flex;
+        }
+        .left {
+            width: 200px;height: 100%;background: gray;
+            flex: none;
+        }
+        .right{
+            height: 100%;background: green;
+            flex: 1;
+        }
+
+        /* 方法三： table布局 */
+
+        /*.container{
+            width: 1000px;height: 400px;border: 1px solid red;
+            display: table;
+        }
+        .left{
+            width: 200px;height: 100%;background: gray;
+            display: table-cell;
+        }
+        .right{
+            height: 100%;background: green;
+            display: table-cell;
+        }*/
+
+        /* 方法四： css计算宽度calc */
+
+        /*.container{
+            width: 1000px;height: 400px;border: 1px solid red;
+        }
+        .left{
+            width: 200px;height: 100%;background: gray;
+            float: left;
+        }
+        .right{
+            height: 100%;background: green;
+            float: right;
+            width: calc(100% - 200px);
+        }*/
+
+        /* 方法五： margin-left方式 */
+
+       /* .container{
+            width: 1000px;height: 400px;border: 1px solid red;
+        }
+        .left{
+            float: left;width: 200px;border: 1px solid red;height: 100%;background: gray;
+        }
+        .right{
+            height: 100%;border:1px solid blue;width: auto;margin-left: 200px;
+        }*/
+    </style>
+
+</body>
+</html>

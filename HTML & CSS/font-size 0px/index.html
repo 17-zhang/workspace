@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        .box {
+            width: 90px;
+            height: 60px;
+            border: 1px solid #ccc;
+            font-size: 0; /* 消除空白间隙 */
+        }
+        /* 理论上是在一行排列，但是实际上不会 */
+        .box div {
+            display: inline-block;
+            box-sizing: border-box;
+            font-size: 14px;
+            width: 30px;
+            border: 1px solid;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <p>问题的根源是 inline（a标签默认是display:inline） 和 inline-block (.list-info 设置的是 display:inline-block) 是内联布局，既然是内联那么就会受空白区域的影响。</p>
+</body>
+</html>

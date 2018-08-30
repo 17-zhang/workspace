@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>div水平居中的3种方式</title>
+
+</head>
+<body>
+    <div style="width: 200px;margin: 0 auto;"></div>
+
+
+    <style type="text/css">
+
+        /* 让绝对定位的div居中 */
+        /*div{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: #ccc;
+        }*/
+
+        /* 水平垂直居中一：确定容器的宽高，设置层的外边距 */
+        /*div {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            left: 50%;
+            top: 50%;
+           !* margin: -100px 0 0 -100px;*!
+            background: green;
+        }*/
+
+        /* 水平居中二：未知容器的宽高，利用transform属性 */
+        /*div {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: gray;
+        }*/
+
+        /* 水平居中三：利用flex布局，实际使用时应考虑兼容性 */
+        body{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 300px;
+            height: 300px;
+            background: red;
+        }
+    </style>
+</body>
+</html>
