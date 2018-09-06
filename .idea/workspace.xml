@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50ee63fe-77d1-4b2f-b894-c4f995abab27" name="Default" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/Flex布局/test1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Flex布局/test2.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Flex布局/test3.html" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/JavaScript [es5][es6]基础知识/js绑定事件的方法？（3种）/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript [es5][es6]基础知识/this指向/改变this指向.js" afterDir="false" />
+>>>>>>> 5bdb23758c36de95615e4008761c471190739177
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,20 +46,33 @@
         <entry file="file://$PROJECT_DIR$/webpack/src/main2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
+<<<<<<< HEAD
               <caret column="25" selection-start-column="25" selection-end-column="25" />
+=======
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+>>>>>>> 5bdb23758c36de95615e4008761c471190739177
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="test1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Flex布局/test1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="263">
               <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+=======
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript [es5][es6]基础知识/js绑定事件的方法？（3种）/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="34" column="51" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="51" />
+>>>>>>> 5bdb23758c36de95615e4008761c471190739177
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="test2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Flex布局/test2.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,6 +87,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
               <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+=======
+      <file leaf-file-name="改变this指向.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaScript [es5][es6]基础知识/this指向/改变this指向.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+>>>>>>> 5bdb23758c36de95615e4008761c471190739177
             </state>
           </provider>
         </entry>
@@ -108,9 +133,15 @@
         <option value="markdown" />
         <option value="Vue Single File Component" />
         <option value="wxss" />
+<<<<<<< HEAD
         <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+=======
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+>>>>>>> 5bdb23758c36de95615e4008761c471190739177
       </list>
     </option>
   </component>
@@ -154,9 +185,16 @@
         <option value="$PROJECT_DIR$/webpack/src/css/index.css" />
         <option value="$PROJECT_DIR$/webpack/config/webpack.dev.js" />
         <option value="$PROJECT_DIR$/webpack/src/main.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Flex布局/test1.html" />
         <option value="$PROJECT_DIR$/Flex布局/test2.html" />
         <option value="$PROJECT_DIR$/Flex布局/test3.html" />
+=======
+        <option value="$PROJECT_DIR$/CSS/实现一个div，左边固定div宽度200px，右边div自适应/index.html" />
+        <option value="$PROJECT_DIR$/JavaScript [es5][es6]基础知识/js绑定事件的方法？（3种）/test.js" />
+        <option value="$PROJECT_DIR$/JavaScript [es5][es6]基础知识/js绑定事件的方法？（3种）/index.html" />
+        <option value="$PROJECT_DIR$/JavaScript [es5][es6]基础知识/this指向/改变this指向.js" />
+>>>>>>> 5bdb23758c36de95615e4008761c471190739177
       </list>
     </option>
   </component>
@@ -172,10 +210,17 @@
       <path value="$PROJECT_DIR$/webpack4.x_config/package.json" />
     </packageJsonPaths>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1378" />
     <option name="height" value="735" />
+=======
+  <component name="ProjectFrameBounds">
+    <option name="y" value="1" />
+    <option name="width" value="1919" />
+    <option name="height" value="1039" />
+>>>>>>> 5bdb23758c36de95615e4008761c471190739177
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -196,7 +241,28 @@
             <path>
               <item name="worksapce" type="b2602c69:ProjectViewProjectNode" />
               <item name="worksapce" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Flex布局" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="HTML &amp; CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="worksapce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="worksapce" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript [es5][es6]基础知识" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="worksapce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="worksapce" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript [es5][es6]基础知识" type="462c0819:PsiDirectoryNode" />
+              <item name="js绑定事件的方法？（3种）" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="worksapce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="worksapce" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript [es5][es6]基础知识" type="462c0819:PsiDirectoryNode" />
+              <item name="this指向" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 5bdb23758c36de95615e4008761c471190739177
             </path>
           </expand>
           <select />
@@ -253,11 +319,18 @@
       <workItem from="1534987390799" duration="7365000" />
       <workItem from="1535189434540" duration="1417000" />
       <workItem from="1535206327605" duration="598000" />
+<<<<<<< HEAD
       <workItem from="1536202266599" duration="3967000" />
+=======
+      <workItem from="1535375757269" duration="807000" />
+      <workItem from="1535457956438" duration="2509000" />
+      <workItem from="1535638397833" duration="1530000" />
+>>>>>>> 5bdb23758c36de95615e4008761c471190739177
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="44844000" />
   </component>
   <component name="ToolWindowManager">
@@ -265,13 +338,26 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20163691" />
+=======
+    <option name="totallyTimeSpent" value="45723000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="1" width="1919" height="1039" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2498671" />
+>>>>>>> 5bdb23758c36de95615e4008761c471190739177
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18347107" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36514983" />
+>>>>>>> 5bdb23758c36de95615e4008761c471190739177
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -290,6 +376,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/webpack4.x_config/配置流程.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -300,6 +387,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 5bdb23758c36de95615e4008761c471190739177
     <entry file="file://$USER_HOME$/node_modules/webpack-cli/bin/cli.js" />
     <entry file="file://$PROJECT_DIR$/webpack-config/node_modules/webpack/lib/Stats.js" />
     <entry file="file://$PROJECT_DIR$/webpack-config/package.json" />
@@ -522,9 +611,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSS/实现一个div，左边固定div宽度200px，右边div自适应/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webpack/src/main2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
+<<<<<<< HEAD
           <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
@@ -547,6 +644,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+=======
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript [es5][es6]基础知识/js绑定事件的方法？（3种）/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript [es5][es6]基础知识/js绑定事件的方法？（3种）/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript [es5][es6]基础知识/this指向/改变this指向.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+>>>>>>> 5bdb23758c36de95615e4008761c471190739177
         </state>
       </provider>
     </entry>
