@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex-wrap是否支持换行或者换列</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">A</div>
+        <div class="flex-item">B</div>
+        <div class="flex-item">A</div>
+        <div class="flex-item">B</div>
+        <div class="flex-item">A</div>
+        <div class="flex-item">B</div>
+        <div class="flex-item">A</div>
+        <div class="flex-item">B</div>
+    </div>
+
+
+    <style type="text/css">
+        .flex-container {
+            display: flex;
+            flex-direction: row;  /* 规定灵活的项目将水平显示，正如一行一样 */
+            width: 600px;
+            height: 230px;
+            background-color: #ccc;
+            justify-content: space-around;  /* 项目位于各行之前、之间、之后都留有空白的容器内。 */
+        }
+    </style>
+
+
+</body>
+</html>
