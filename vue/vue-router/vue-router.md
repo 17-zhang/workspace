@@ -180,3 +180,93 @@
 
 
 这里要特别注意 在子组件中 获取参数的时候是$route.params 而不是$router 这很重要~~~
+
+
+#### 导航守卫/导航钩子
+
+分为全局导航钩子、组件导航钩子和路由独享钩子：
+
+##### 全部导航钩子
+
+- beforeEach
+
+```
+  const router = new VueRouter({ ... })
+  
+  router.beforeEach((to, from, next) => {
+    // ...
+  })
+  
+```
+
+确保要调用 next 方法，否则钩子就不会被 resolved。
+
+- beforeResolve [2.5新增]
+
+在 2.5.0+ 你可以用 router.beforeResolve 注册一个全局守卫。这和 router.beforeEach 类似，区别是在导航被确认之前，同时在所有组件内守卫和异步路由组件被解析之后，解析守卫就被调用。
+
+- afterEach
+
+你也可以注册全局后置钩子，然而和守卫不同的是，这些钩子不会接受 next 函数也不会改变导航本身：
+
+```
+  router.afterEach((to, from) => {
+    // ...
+  })
+```
+
+##### 组件内的钩子
+
+- beforeRouterEach
+- beforeRouterUpdate [2.2新增]
+- beforeRouterLeave
+
+```
+  const Foo = {
+    template: `...`,
+    beforeRouteEnter (to, from, next) {
+      // 在渲染该组件的对应路由被 confirm 前调用
+      // 不！能！获取组件实例 `this`
+      // 因为当守卫执行前，组件实例还没被创建
+    },
+    beforeRouteUpdate (to, from, next) {
+      // 在当前路由改变，但是该组件被复用时调用
+      // 举例来说，对于一个带有动态参数的路径 /foo/:id，在 /foo/1 和 /foo/2 之间跳转的时候，
+      // 由于会渲染同样的 Foo 组件，因此组件实例会被复用。而这个钩子就会在这个情况下被调用。
+      // 可以访问组件实例 `this`
+    },
+    beforeRouteLeave (to, from, next) {
+      // 导航离开该组件的对应路由时调用
+      // 可以访问组件实例 `this`
+    }
+  }
+  
+```
+
+##### 路由独享钩子
+
+- beforeEnter
+
+```
+  const router = new VueRouter({
+    routes: [
+      {
+        path: '/foo',
+        component: Foo,
+        beforeEnter: (to, from, next) => {
+          // ...
+        }
+      }
+    ]
+  })
+  
+```
+
+
+
+
+
+
+
+
+
