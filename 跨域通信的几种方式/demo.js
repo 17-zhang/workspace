@@ -31,3 +31,38 @@ ws.onclose = function () {
     console.log('close....');
 }
 
+/**
+ * hash
+ */
+
+// 父窗体
+var son = document.getElementByTagName('iframe');
+son.src = son.src + '#' + data;
+
+// 子窗体
+window.onhashchange = function () {
+    var data = window.location.hash;
+}
+
+/**
+ * postMessage
+ */
+
+// 窗口A 发送
+BWindow.postMessage('发送的数据', 'http://B.com');
+
+// 窗口B 接收
+window.addEventListener('message', (event) => {
+    event.origin; // http://A.com
+    event.source; // AWindow
+    event.data; // ‘发送的数据’
+})
+
+/**
+ * CORS:跨域资源共享
+ */
+
+fetch(url, {
+    method: 'get',
+    // 头信息配置
+}).then(() => {});
