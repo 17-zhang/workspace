@@ -127,3 +127,42 @@ getJSON('/posts.json').then(function (json) {    // getJSON是对json数据发�
     console.log('出错了', error)
 });
 
+
+/**
+ *  3、Promise.prototype.then()
+ *
+ *  它的作用视为Promise实例添加状态改变时的回调函数。
+ *  then的第一个参数是resolved状态的回调函数，第二个参数(可选)是rejected状态的回调函数。
+ */
+
+/**
+ * 4、Promise.prototype.catch()
+ *   是.then(null, rejection)的别名，用于指定发生错误时的回调函数。
+ */
+
+// promise抛出一个错误，就被catch方法指定的回调函数捕获。
+
+// 写法一：
+
+const promise = new Promise(function (resolve, reject) {
+    try {
+        throw new Error('test');
+    } catch (e) {
+        reject(e);
+    }
+});
+promise.catch(function (error) {
+    console.log(error);
+});
+
+// 写法二
+
+const promise = new Promise(function (resolve, reject) {
+    reject(new Error('test'));
+});
+promise.catch(function (error) {
+    console.log(error);
+})
+
+
+
