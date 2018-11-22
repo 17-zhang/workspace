@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>js遍历html显示</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<table id="GroupTable">
+    <thead>
+        <tr id="head"></tr>
+    </thead>
+    <tbody>
+        <tr></tr>
+    </tbody>
+</table>
+
+<script>
+    var data = {
+        "dataTypes": [
+            {
+                "typeCode": "employee",
+                "typeName": "员工信息",
+                "typeOrder": 0
+            },
+            {
+                "typeCode": "department",
+                "typeName": "部门信息",
+                "typeOrder": 1
+            },
+            {
+                "typeCode": "project",
+                "typeName": "项目信息",
+                "typeOrder": 2
+            }
+        ],
+        "headerData": [
+            {
+                "headerName": "工号",
+                "headerOrder": 0
+            },
+            {
+                "headerName": "姓名",
+                "headerOrder": 1
+            },
+            {
+                "headerName": "年龄",
+                "headerOrder": 2
+            },
+            {
+                "headerName": "是否同步",
+                "headerOrder": 3
+            }
+        ],
+        "lineDatas": [
+            {
+                "lineData": [
+                    "1001",
+                    "张三",
+                    "13",
+                    "是"
+                ],
+                "lineOrder": 0
+            },
+            {
+                "lineData": [
+                    "1002",
+                    "李四",
+                    "13",
+                    "是"
+                ],
+                "lineOrder": 1
+            },
+            {
+                "lineData": [
+                    "1003",
+                    "王五",
+                    "13",
+                    "是"
+                ],
+                "lineOrder": 2
+            },
+            {
+                "lineData": [
+                    "1004",
+                    "马六",
+                    "13",
+                    "是"
+                ],
+                "lineOrder": 3
+            },
+            {
+                "lineData": [
+                    "1005",
+                    "冯七",
+                    "13",
+                    "是"
+                ],
+                "lineOrder": 4
+            }
+        ]
+    }
+
+
+    // 遍历头信息(按照headerOrder从0开始由小到大排列展示name)，加上2个for循环
+    var headPage = "tr";
+    for (var i = 0;i < data.headerData.length;i++) {
+        console.log("表头" + data.headerData[i].headerName);
+        for (var j = 0; j < data.headerData.length; j++){
+            if (data.headerData[j].headerOrder == i) {
+                headPage = headPage +
+                        '<td>' +
+                            '<th>' +
+                                data.headerData[j].headerName +
+                            '</th>' +
+                        '</td>'
+            }
+        }
+    }
+    headPage += '</tr>';
+    $("#GroupTable #head").html(headPage)
+
+    // 遍历表内容信息
+
+    var tbodyPage = "";
+    for (var i = 0; i < data.lineDatas.length; i++) {
+        tbodyPage += '<tr>'
+        for (var j = 0; j < data.lineDatas[i].lineData.length; j++){
+            tbodyPage = tbodyPage +
+                    '<td>' +
+                        '<th>' + data.lineDatas[i].lineData[j] +
+                        '</th>' +
+                    '</td>'
+        }
+        tbodyPage += '</tr>'
+    }
+    $("#GroupTable tbody").html(tbodyPage);
+
+</script>
+
+<style type="text/css">
+    td{
+        padding-right: 10px;
+    }
+</style>
+
+</body>
+</html>
