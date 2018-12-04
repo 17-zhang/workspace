@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="jquery-1.11.0.min.js"></script>
+</head>
+<body>
+
+    <tr ondblclick="tdEdit(this,@item.ID)"></tr>
+
+
+<script>
+    function tdEdit(element, id) {
+        var i_a = "<input class='edit_td' type='text' style='height:30px; width:40px;' value='";
+        var i_b = "'/>";
+        var t_a = "<textarea class='tarea' cols='63' rows='3' style='width:90%'>";
+        var t_b = "</textarea>";
+        var td = $(element).find("td");
+        if (td.length > 0) {
+            var sc = $(element).children().eq(1).text();
+            var ss = $(element).children().eq(2).text();
+            var sequence = $(element).children().eq(3).text();
+            var weight = $(element).children().eq(4).text();
+            var max = $(element).children().eq(5).text();
+            var min = $(element).children().eq(6).text();
+            var cv = $(element).children().eq(7).text();
+            var explain = $(element).children().eq(8).text();
+
+            $(element).children().eq(1).html($(t_a + sc + t_b));
+            $(element).children().eq(2).html($(t_a + ss + t_b));
+            $(element).children().eq(3).html($(i_a + sequence + "'id='num1" + i_b));
+            $(element).children().eq(4).html($(i_a + weight + "'id='num2" + i_b));
+            $(element).children().eq(5).html($(i_a + max + "'id='maxvalue" + i_b));
+            $(element).children().eq(6).html($(i_a + min + "'id='minvalue" + i_b));
+            $(element).children().eq(7).html($(t_a + cv + t_b));
+            $(element).children().eq(8).html($(t_a + explain + t_b));
+        }
+        $(".edit_td").click(function () {
+            return false;
+        });
+        $(".tarea").click(function () {
+            return false;
+        });
+        //获取焦点
+        $(".edit_td").trigger("focus");
+        $(".tarea").trigger("focus");
+
+        //文本框失去焦点后提交内容，重新变为文本
+        $(".save").click(function () {
+            //验证信息"n":/^\d+$/
+            var reg = /^[0-9]+\.{0,1}[0-9]{0,2}$/;
+            var num1 = $("#num1").val();
+            var num2 = $("#num2").val();
+            var max = $("#maxvalue").val();
+            var min = $("#minvalue").val();
+            if (parseInt(min) > parseInt(max)) {
+                alert("最小值不能大于最大值！");
+                return false;
+            }
+            if (!reg.test(num1) || !reg.test(num2) || !reg.test(max) || !reg.test(min)) {
+                alert("请输入数字!");
+                return false;
+            }
+            //重新赋上新值
+            $(".edit_td").each(function (i) {
+                var newtxt = $(this).val();
+                $(element).children().eq(i + 3).html(newtxt);
+            });
+            $(".tarea").each(function (j) {
+                var newtarea = $(this).val();
+                if (j < 2) {
+                    $(element).children().eq(j + 1).html(newtarea);
+                }
+                else {
+                    $(element).children().eq(j + 5).html(newtarea);
+                }
+            });
+
+            var new_sc = $(element).children().eq(1).text();
+            var new_ss = $(element).children().eq(2).text();
+            var new_sequence = $(element).children().eq(3).text();
+            var new_weight = $(element).children().eq(4).text();
+            var new_max = $(element).children().eq(5).text();
+            var new_min = $(element).children().eq(6).text();
+            var new_cv = $(element).children().eq(7).text();
+            var new_explain = $(element).children().eq(8).text();
+            if (new_sc != sc || new_ss != ss || new_sequence != sequence || new_weight != weight || new_max != max || new_min != min || new_cv != cv || new_explain != explain) {
+                $.ajax({
+                    type: 'POST',
+                    contentType: 'application/json',
+                    url: '/Ajax/AjaxAction.ashx/UpdateRuleDetail',
+                    data: '{id:"' + id + '",strCon:"' + new_sc + '",strStandard:"' + new_ss + '",Sequence:"' + new_sequence + '",Weight:"' + new_weight + '",CandidateValue:"'
+                        + new_cv + '",MaxValue:"' + new_max + '",MinValue:"' + new_min + '",Explain:"' + new_explain + '"}',
+                    dataType: 'json',
+                    async: true,
+                    beforeSend: function () {
+                    },
+                    success: function (data) {
+                        alert("保存成功！");
+                        window.location.reload();   //刷新页面
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        alert(XMLHttpRequest + ':' + textStatus);
+                        window.location.reload();
+                    }
+                });
+            }
+            else {
+                alert("温馨提示：您没有做任何修改！");
+                window.location.reload();
+            }
+
+        });
+    }
+
+    JS
+</script>
+
+</body>
+</html>
