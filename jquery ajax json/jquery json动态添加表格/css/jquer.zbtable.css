@@ -1,0 +1,24 @@
+.zbt-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.zbt-table thead{
+	background: #E5E5E5;
+}
+.zbt-table th,td{
+    height: 30px;
+    text-align: center;
+    border: 1px solid #AAAAAA;
+}
+.zbt-table tbody tr{
+	cursor: pointer;
+}
+.zbt-evenRow{
+	background: #FFFFFF;
+}
+.zbt-oddRow{
+	background: #F2F2F2;
+}
+.zbt-curRow{
+	background: #E5E5E5;
+}

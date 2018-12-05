@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js json动态添加表格数据</title>
+
+    <link rel="stylesheet" href="css/jquer.zbtable.css" type="text/css">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.zbtable.js"></script>
+
+    <script src="json/testjson.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body>
+
+    <table id="test" class="zbt-table"></table>
+
+</body>
+
+<script type="text/javascript">
+    $('#test').ZBTable({
+        //evenRowClass:'zbt-evenRow',//表格偶数行样式
+        //oddRowClass:'zbt-oddRow',//表格奇数行样式
+        //curRowClass:'zbt-curRow',//表格hover样式
+        //overflowHeight: "260px",//出现滚动条的高度
+        titles:[{
+            title: "id",
+            keyName: "id",
+            width: 40,
+            checkBox: true
+        },
+            {
+                title:"姓名",
+                keyName:"name"
+            },{
+                title:"年龄",
+                keyName:"age",
+                width: 60
+            },{
+                title:"身高",
+                keyName:"height"
+            },{
+                title:"体重",
+                keyName:"weight"
+            },{
+                title:"性别",
+                keyName:"sex"
+            }],
+        data: testData
+    });
+</script>
+
+</html>
