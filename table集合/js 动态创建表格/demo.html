@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>原生JS动态创建表格</title>
+</head>
+<body>
+
+    <h3>动态创建表格</h3>
+
+    行数：<input type="text" value="5" id="rows">
+    列数：<input type="text" value="5" id="cols">
+    <input type="button" value="创建" onclick="createTab()">
+
+    <div id="div1"></div>
+
+<script type="text/javascript">
+    function createTab() {
+        // 获取元素
+        rows = document.getElementById('rows').value
+        cols = document.getElementById('cols').value
+        div1 = document.getElementById('div1')
+
+        // 构建表格
+        var tab = '<table border="1" width="500" cellpadding="0" cellspacing="0" align="center">';
+        for (var i=0; i<rows; i++){
+            tab += '<tr>'
+            for (var j=0; j<cols; j++){
+                tab += '<td style="background-color: #ddd">'+  + j +'</td>'
+            }
+            tab += '</tr>'
+        }
+        tab +='</table>';
+        // 写入到html中
+        div1.innerHTML = tab;
+
+    }
+</script>
+
+</body>
+</html>
