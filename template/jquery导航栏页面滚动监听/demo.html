@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery导航栏页面滚动监听</title>
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+
+</head>
+<body>
+
+    <div class="x12 headv">
+        <div>导航1</div>
+        <div>导航2</div>
+        <div>导航3</div>
+        <div>导航4</div>
+        <div>导航5</div>
+    </div>
+
+    <div class="x12 nav-list">
+        <div class="nav1 x12" style="background: #24978a;height: 500px"></div>
+        <div class="nav2 x12" style="background: #323348;height: 800px"></div>
+        <div class="nav3 x12" style="background: #fffd8c;height: 1000px"></div>
+        <div class="nav4 x12" style="background: #fd9a75;height: 500px"></div>
+        <div class="nav5 x12" style="background: #e64a58;height: 1200px"></div>
+    </div>
+</body>
+
+<script type="text/javascript">
+    (function () {
+        function hScroll(options) {
+            var self = this;
+            self = Object.assign(self, {
+                nav1: '',  // 导航栏
+                nav2: '',  // 需要监听的内容
+                check: '',  // 选中样式
+            }, options);
+        }
+        
+        hScroll.prototype = {
+            init: function () {
+                var self = this,
+                    arr = [],
+                    kdiv = $(self.nav2);
+                for (var i =0; i < kdiv.length; i++){
+                    arr.push($(kdiv[i]).offset().top);
+                }
+                self.sctopFun(arr);
+                $(window).scroll(function (e) {
+                    self.sctopFun(arr);
+                });
+                $(self.nav1).click(function (e) {
+                    $('body, html').animate({
+                        scrollTop: arr[$(this).index()] + 'px'
+                    });
+                })
+            },
+            sctopFun: function (arr) {
+
+            }
+        }
+
+    }());
+</script>
+
+</html>
